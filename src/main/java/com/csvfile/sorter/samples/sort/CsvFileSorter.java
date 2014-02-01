@@ -19,6 +19,8 @@ import java.util.PriorityQueue;
 import org.xerial.snappy.SnappyInputStream;
 import org.xerial.snappy.SnappyOutputStream;
 
+import com.csvfile.sorter.samples.serialize.RowData;
+
 /*
  * 数GBになるCSVファイルをソートするため、公開されているソート処理を本プロジェクトに取り込んだ。
  * コメントなどもそのまま抜粋しているため、暫時修正を行っていく。
